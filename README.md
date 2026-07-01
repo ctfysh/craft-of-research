@@ -85,7 +85,7 @@ This skill is distilled from **_The Craft of Research_** (5th Edition, Universit
 
 ### License
 
-This project is for educational and research purposes only. The text of _The Craft of Research_ is copyright by the authors and the University of Chicago Press.
+This project is for educational and research purposes only.
 
 ---
 
@@ -163,4 +163,4 @@ This project is for educational and research purposes only. The text of _The Cra
 
 ### 许可证
 
-本项目仅用于教育和研究目的。《The Craft of Research》的文本内容版权归原作者和芝加哥大学出版社所有。
+本项目仅用于教育和研究目的。
