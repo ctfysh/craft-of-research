@@ -28,7 +28,7 @@ This is an AI skill — not a paper-writing tool, but a Socratic thinking partne
 - Does your argument hold? How do you convince your reader?
 - What new questions does your research open up?
 
-Works with any AI coding agent that supports custom skills — OpenCode, Claude Code, Cline, and similar tools.
+Works with any AI coding agent that supports custom skills — OpenCode, Claude Code, Codex, and similar tools.
 
 ### The Six Dimensions
 
@@ -109,7 +109,7 @@ This project is for educational and research purposes only. The text of _The Cra
 - 你的论点站得住吗？你拿什么说服读者？
 - 你的研究打开了什么新问题？
 
-适用于任何支持自定义技能的 AI 编程工具——OpenCode、Claude Code、Cline 等。
+适用于任何支持自定义技能的 AI 编程工具——OpenCode、Claude Code、Codex 等。
 
 ### 六大对话维度
 
