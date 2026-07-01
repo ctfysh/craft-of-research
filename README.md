@@ -28,7 +28,7 @@ This is an AI skill — not a paper-writing tool, but a Socratic thinking partne
 - Does your argument hold? How do you convince your reader?
 - What new questions does your research open up?
 
-Designed for OpenCode and compatible AI coding agents.
+Works with any AI coding agent that supports custom skills — OpenCode, Claude Code, Cline, and similar tools.
 
 ### The Six Dimensions
 
@@ -45,7 +45,7 @@ Researchers can switch freely between dimensions — no fixed order, no turn lim
 
 ### How to Use
 
-**In OpenCode:**
+Invoke the skill with the trigger command:
 
 ```
 /craft-of-research
@@ -109,7 +109,7 @@ This project is for educational and research purposes only. The text of _The Cra
 - 你的论点站得住吗？你拿什么说服读者？
 - 你的研究打开了什么新问题？
 
-适用于 OpenCode 及兼容的 AI 编程工具。
+适用于任何支持自定义技能的 AI 编程工具——OpenCode、Claude Code、Cline 等。
 
 ### 六大对话维度
 
@@ -126,7 +126,7 @@ This project is for educational and research purposes only. The text of _The Cra
 
 ### 怎么用
 
-**在 OpenCode 中：**
+在支持的 AI 工具中触发命令：
 
 ```
 /craft-of-research
