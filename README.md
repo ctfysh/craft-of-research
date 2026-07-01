@@ -70,9 +70,6 @@ Or describe your need directly. The skill activates automatically on trigger phr
 
 ```
 .
-├── book/                          # Full book text + figures
-│   ├── craft-of-research-5e.md    # Full text as Markdown (~4800 lines)
-│   └── figures/                   # 29 images
 ├── skills/
 │   └── craft-of-research/
 │       └── SKILL.md               # The skill itself (~1474 lines)
@@ -151,9 +148,6 @@ This project is for educational and research purposes only. The text of _The Cra
 
 ```
 .
-├── book/                          # 全书原文 + 插图
-│   ├── craft-of-research-5e.md    # 全文 Markdown（约 4800 行）
-│   └── figures/                   # 29 张插图
 ├── skills/
 │   └── craft-of-research/
 │       └── SKILL.md               # 引导技能本体（约 1474 行）
