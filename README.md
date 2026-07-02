@@ -30,6 +30,8 @@ This is an AI skill — not a paper-writing tool, but a Socratic thinking partne
 
 Works with any AI coding agent that supports custom skills — OpenCode, Claude Code, Codex, and similar tools.
 
+![Craft of Research — English Poster](images/poster-en.png)
+
 ### The Six Dimensions
 
 | # | Dimension | Core Question |
@@ -107,6 +109,8 @@ This project is for educational and research purposes only.
 - 你的研究打开了什么新问题？
 
 适用于任何支持自定义技能的 AI 编程工具——OpenCode、Claude Code、Codex 等。
+
+![Craft of Research — 中文海报](images/poster-zh.png)
 
 ### 六大对话维度
 
