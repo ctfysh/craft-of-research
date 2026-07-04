@@ -12,6 +12,11 @@ A project containing the full text of *The Craft of Research* (5th Edition) as a
 ├── skills/
 │   └── craft-of-research/
 │       └── SKILL.md               # Agent skill (~1474 lines)
+├── examples/                      # Sample skill dialogues (EN/ZH × humanities/science)
+│   ├── humanities-en.md           # Humanities dialogue — English
+│   ├── humanities-zh.md           # Humanities dialogue — 中文
+│   ├── science-en.md              # Science dialogue — English
+│   └── science-zh.md              # Science dialogue — 中文
 ├── docs/superpowers/
 │   ├── plans/                     # Implementation plans
 │   └── specs/                     # Design specifications
@@ -25,6 +30,10 @@ A project containing the full text of *The Craft of Research* (5th Edition) as a
 | Book content (full text) | `book/craft-of-research-5e.md` |
 | Book figures | `book/figures/fig-{chapter}-{number}.jpg` |
 | Agent skill (research guidance) | `skills/craft-of-research/SKILL.md` |
+| Example dialogue — humanities (EN) | `examples/humanities-en.md` |
+| Example dialogue — humanities (ZH) | `examples/humanities-zh.md` |
+| Example dialogue — science (EN) | `examples/science-en.md` |
+| Example dialogue — science (ZH) | `examples/science-zh.md` |
 | Skill implementation plan | `docs/superpowers/plans/` |
 | Skill design spec | `docs/superpowers/specs/` |
 
