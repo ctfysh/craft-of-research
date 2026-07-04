@@ -90,10 +90,10 @@ Or describe your need directly. The skill activates automatically on trigger phr
 
 The `examples/` folder contains sample dialogues showing the skill in action. Each file walks through all six dimensions with a realistic researcher profile.
 
-| Discipline | English | 中文 |
-|------------|---------|------|
-| **Humanities** — Cultural Studies / Memory Studies: "How second-generation Chinese immigrants construct cultural identity on social media" | [humanities-en.md](examples/humanities-en.md) | [humanities-zh.md](examples/humanities-zh.md) |
-| **Science** — Environmental Microbiology: "Effects of agricultural management on soil microbial communities and carbon sequestration" | [science-en.md](examples/science-en.md) | [science-zh.md](examples/science-zh.md) |
+| Discipline | Dialogue |
+|------------|----------|
+| **Science** — Environmental Microbiology: "Effects of agricultural management on soil microbial communities and carbon sequestration" | [science-en.md](examples/science-en.md) |
+| **Humanities** — Cultural Studies / Memory Studies: "How second-generation Chinese immigrants construct cultural identity on social media" | [humanities-en.md](examples/humanities-en.md) |
 
 ### Source
 
@@ -184,10 +184,10 @@ This project is for educational and research purposes only.
 
 `examples/` 文件夹包含技能的实际对话示例，每份示例围绕一个真实研究者画像跑通全部六个维度。
 
-| 学科 | English | 中文 |
-|------|---------|------|
-| **文科** — 文化研究 / 记忆研究："中国移民二代如何在社交媒体上建构文化身份" | [humanities-en.md](examples/humanities-en.md) | [humanities-zh.md](examples/humanities-zh.md) |
-| **理科** — 环境微生物学："不同农业管理措施对土壤微生物群落与碳固定的影响" | [science-en.md](examples/science-en.md) | [science-zh.md](examples/science-zh.md) |
+| 学科 | 对话 |
+|------|------|
+| **理科** — 环境微生物学："不同农业管理措施对土壤微生物群落与碳固定的影响" | [science-zh.md](examples/science-zh.md) |
+| **文科** — 文化研究 / 记忆研究："中国移民二代如何在社交媒体上建构文化身份" | [humanities-zh.md](examples/humanities-zh.md) |
 
 ### 来源
 
