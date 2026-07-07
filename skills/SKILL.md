@@ -22,7 +22,7 @@ question(questions=[{
     {"label": "中文", "description": "使用中文进行对话"},
     {"label": "English", "description": "Converse in English"}
   ]
-}]
+}])
 ```
 
 After the user selects a language, read the corresponding file:
