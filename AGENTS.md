@@ -11,7 +11,9 @@ A project containing the full text of *The Craft of Research* (5th Edition) as a
 │   └── figures/                   # 29 images (cover, figures, logo)
 ├── skills/
 │   └── craft-of-research/
-│       └── SKILL.md               # Agent skill (~1474 lines)
+│       ├── SKILL.md               # Thin shell: language selection (~34 lines)
+│       ├── SKILL-zh.md            # Full Chinese version (~716 lines)
+│       └── SKILL-en.md            # Full English version (~720 lines)
 ├── examples/                      # Sample skill dialogues (EN/ZH × humanities/science)
 │   ├── humanities-en.md           # Humanities dialogue — English
 │   ├── humanities-zh.md           # Humanities dialogue — 中文
@@ -30,6 +32,8 @@ A project containing the full text of *The Craft of Research* (5th Edition) as a
 | Book content (full text) | `book/craft-of-research-5e.md` |
 | Book figures | `book/figures/fig-{chapter}-{number}.jpg` |
 | Agent skill (research guidance) | `skills/craft-of-research/SKILL.md` |
+| Skill — Chinese version | `skills/craft-of-research/SKILL-zh.md` |
+| Skill — English version | `skills/craft-of-research/SKILL-en.md` |
 | Example dialogue — humanities (EN) | `examples/humanities-en.md` |
 | Example dialogue — humanities (ZH) | `examples/humanities-zh.md` |
 | Example dialogue — science (EN) | `examples/science-en.md` |
