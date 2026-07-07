@@ -73,10 +73,9 @@ Or describe your need directly. The skill activates automatically on trigger phr
 ```
 .
 ├── skills/
-│   └── craft-of-research/
-│       ├── SKILL.md               # Thin shell: language selection only (~34 lines)
-│       ├── SKILL-zh.md            # Full Chinese version (~716 lines)
-│       └── SKILL-en.md            # Full English version (~720 lines)
+│   ├── SKILL.md               # Thin shell: language selection only (~34 lines)
+│   ├── SKILL-zh.md            # Full Chinese version (~716 lines)
+│   └── SKILL-en.md            # Full English version (~720 lines)
 ├── examples/
 │   ├── humanities-en.md           # Sample dialogue — humanities (English)
 │   ├── humanities-zh.md           # Sample dialogue — humanities (中文)
@@ -169,10 +168,9 @@ This project is for educational and research purposes only.
 ```
 .
 ├── skills/
-│   └── craft-of-research/
-│       ├── SKILL.md               # 瘦壳：语言选择入口（约 34 行）
-│       ├── SKILL-zh.md            # 中文完整版（约 716 行）
-│       └── SKILL-en.md            # 英文完整版（约 720 行）
+│   ├── SKILL.md               # 瘦壳：语言选择入口（约 34 行）
+│   ├── SKILL-zh.md            # 中文完整版（约 716 行）
+│   └── SKILL-en.md            # 英文完整版（约 720 行）
 ├── examples/
 │   ├── humanities-en.md           # 示例对话 — 文科（English）
 │   ├── humanities-zh.md           # 示例对话 — 文科（中文）
