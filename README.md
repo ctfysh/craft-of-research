@@ -45,6 +45,53 @@ Works with any AI coding agent that supports custom skills — OpenCode, Claude 
 
 Researchers can switch freely between dimensions — no fixed order, no turn limit.
 
+### Workflow: From Dialogue to a Research Memo
+
+The skill guides you through three phases. Dialogue exploration builds clarity; the innovation self-check confirms readiness; a structured research memo captures the result.
+
+```
+┌──────────────────────────────────────────────────────────┐
+│           Phase A — Dialogue Exploration                 │
+│                                                          │
+│   Step 1 ── Define your problem ──────────── Dimension 1 │
+│   Step 2 ── Validate your significance ───── Dimension 2 │
+│   Step 3 ── Build your argument ──────────── Dimension 3 │
+│   Step 4 ── Check ethics ────────────────── Dimension 4 │
+│   Step 5 ── Open new questions ───────────── Dimension 5 │
+│   Step 6 ── Verify you can say it ────────── Dimension 6 │
+│              (optional, for writing/presenting)          │
+└──────────────────────────────────────────────────────┬───┘
+                                                       │
+                                                       ▼
+┌──────────────────────────────────────────────────────┴───┐
+│         Phase B — Innovation Self-Check (5 steps)        │
+│                                                          │
+│   □ Step 1: Can I name the conversation I'm joining?    │
+│   □ Step 2: Can I answer "So What?" at least 2 levels?  │
+│   □ Step 3: Can I name my 2 weakest reasoning links?    │
+│   □ Step 4: Can I restate my argument from an           │
+│             opponent's perspective?                      │
+│   □ Step 5: Can I say what new questions my research     │
+│             opens up?                                    │
+│                                                          │
+│   Any "no" → return to the corresponding dimension.     │
+└──────────────────────────────────────────────────────┬───┘
+                                                       │
+                                                       ▼
+┌──────────────────────────────────────────────────────┴───┐
+│         Phase C — Research Memo                          │
+│                                                          │
+│   A structured summary containing:                       │
+│   ├─ Research question (the X/Y/Z statement)             │
+│   ├─ Creative angle (agreement/disagreement/extension)   │
+│   ├─ Argument skeleton (claim → reasons → evidence)      │
+│   ├─ Potential challenges (weakest links + counterargs)  │
+│   └─ Next questions (what this research opens up)        │
+└──────────────────────────────────────────────────────────┘
+```
+
+The dialogue is **not** a linear form-filling exercise. You loop between steps, revisit earlier dimensions, and only move to Phase B when your thinking feels solid enough. The research memo is a natural byproduct — not the goal, but what emerges when the conversation has done its work.
+
 ### How to Use
 
 Invoke the skill with the trigger command:
@@ -139,6 +186,50 @@ This project is for educational and research purposes only.
 | 六 | **把你的论证写出来、讲出来** | 怎么让你的论证对别人有意义？ |
 
 研究者可以在六个维度之间自由切换，没有固定顺序，没有轮次上限。
+
+### Workflow：从对话到研究备忘录
+
+技能通过三个阶段引导。对话探索建立思路清晰度；创新性自检确认就绪；结构化备忘录产出一份可归档的成果。
+
+```
+┌──────────────────────────────────────────────────────────┐
+│           Phase A — 对话探索                             │
+│                                                          │
+│   Step 1 ── 定义问题（科学问题是什么？）─── 维度一        │
+│   Step 2 ── 验证意义（为什么值得做？）──── 维度二        │
+│   Step 3 ── 搭建论证（逻辑是否严谨？）─── 维度三        │
+│   Step 4 ── 检查伦理 ─────────────────── 维度四        │
+│   Step 5 ── 打开新问题 ──────────────── 维度五        │
+│   Step 6 ── 验证可表达（可选）────────── 维度六        │
+└──────────────────────────────────────────────────────┬───┘
+                                                       │
+                                                       ▼
+┌──────────────────────────────────────────────────────┴───┐
+│         Phase B — 创新性自检（五步）                     │
+│                                                          │
+│   □ Step 1: 我能说清自己在和谁对话吗？                  │
+│   □ Step 2: 我能自然回答"So What?"至少2层？             │
+│   □ Step 3: 我能说出自己最薄弱的2个推理环节？            │
+│   □ Step 4: 我能从反对者的角度重述自己的论证？          │
+│   □ Step 5: 我能说清自己的研究打开了什么新问题？        │
+│                                                          │
+│   任一"否"→ 回到对应维度继续深化                        │
+└──────────────────────────────────────────────────────┬───┘
+                                                       │
+                                                       ▼
+┌──────────────────────────────────────────────────────┴───┐
+│         Phase C — 研究备忘录                             │
+│                                                          │
+│   一份结构化摘要，包含：                                 │
+│   ├─ 研究问题（X/Y/Z 三句式）                           │
+│   ├─ 创造性切入点（同意/异议/扩展）                     │
+│   ├─ 论证骨架（主张 → 理由 → 证据）                     │
+│   ├─ 潜在挑战（最薄弱环节 + 反方观点）                  │
+│   └─ 下一步问题（这个研究打开了什么）                   │
+└──────────────────────────────────────────────────────────┘
+```
+
+对话**不是**线性填表。你可以在各步之间来回跳转，随时回到前面的维度重新审视，直到思路足够清晰再进入 Phase B。研究备忘录是对话自然产生的副产品——不是目标，而是对话完成时浮现的东西。
 
 ### 怎么用
 
