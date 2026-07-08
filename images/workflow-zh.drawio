@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="drawio" version="30.2.6">
+  <diagram name="Workflow-LR">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ===================== Title ===================== -->
+        <mxCell id="title" value="&lt;b&gt;研究之道 — 工作流程&lt;/b&gt;" style="text;html=1;fontSize=46;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#1E293B;" vertex="1" parent="1">
+          <mxGeometry x="52" y="12" width="1816" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="从苏格拉底对话到结构化研究备忘录" style="text;html=1;fontSize=27;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#64748B;" vertex="1" parent="1">
+          <mxGeometry x="52" y="63" width="1816" height="29" as="geometry" />
+        </mxCell>
+
+        <!-- ============================================================ -->
+        <!-- Phase A — Dialogue Exploration (Indigo)                      -->
+        <!-- ============================================================ -->
+        <mxCell id="phaseA" value="&lt;b&gt;阶段 A — 对话探索&lt;/b&gt;" style="swimlane;startSize=58;fillColor=#4F46E5;gradientColor=#4338CA;swimlaneFillColor=#F8FAFC;strokeColor=#4F46E5;fontColor=#FFFFFF;fontSize=37;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="52" y="112" width="572" height="780" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a1" value="&lt;b&gt;🎯 第一步 — 定义问题&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:27px;color:#64748B;&quot;&gt;你的研究问题是什么？（维度一）&lt;/span&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#C7D2FE;shadow=1;fontSize=32;verticalAlign=middle;" vertex="1" parent="phaseA">
+          <mxGeometry x="20" y="81.5" width="532" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a2" value="&lt;b&gt;💡 第二步 — 验证意义&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:27px;color:#64748B;&quot;&gt;为什么重要？（维度二）&lt;/span&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#C7D2FE;shadow=1;fontSize=32;verticalAlign=middle;" vertex="1" parent="phaseA">
+          <mxGeometry x="20" y="196.5" width="532" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a3" value="&lt;b&gt;🏗️ 第三步 — 构建论证&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:27px;color:#64748B;&quot;&gt;逻辑是否严谨完整？（维度三）&lt;/span&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#C7D2FE;shadow=1;fontSize=32;verticalAlign=middle;" vertex="1" parent="phaseA">
+          <mxGeometry x="20" y="311.5" width="532" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a4" value="&lt;b&gt;⚖️ 第四步 — 检查伦理&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:27px;color:#64748B;&quot;&gt;谁可能受影响？（维度四）&lt;/span&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#C7D2FE;shadow=1;fontSize=32;verticalAlign=middle;" vertex="1" parent="phaseA">
+          <mxGeometry x="20" y="426.5" width="532" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a5" value="&lt;b&gt;🔭 第五步 — 提出新问题&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:27px;color:#64748B;&quot;&gt;接下来是什么？（维度五）&lt;/span&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#C7D2FE;shadow=1;fontSize=32;verticalAlign=middle;" vertex="1" parent="phaseA">
+          <mxGeometry x="20" y="541.5" width="532" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a6" value="&lt;b&gt;✍️ 第六步 — 验证可表达&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:27px;color:#64748B;&quot;&gt;写作与展示（维度六 — 可选）&lt;/span&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#C7D2FE;shadow=1;fontSize=32;verticalAlign=middle;dashed=1;" vertex="1" parent="phaseA">
+          <mxGeometry x="20" y="656.5" width="532" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- ============================================================ -->
+        <!-- Arrow A → B                                                  -->
+        <!-- ============================================================ -->
+        <mxCell id="arrowAB" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jumpStyle=none;html=1;strokeWidth=3;strokeColor=#4F46E5;endArrow=blockThin;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="624" y="502" as="sourcePoint" />
+            <mxPoint x="674" y="502" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ============================================================ -->
+        <!-- Phase B — Innovation Self-Check (Amber)                      -->
+        <!-- ============================================================ -->
+        <mxCell id="phaseB" value="&lt;b&gt;阶段 B — 创新性自检&lt;/b&gt;" style="swimlane;startSize=58;fillColor=#D97706;gradientColor=#B45309;swimlaneFillColor=#FFFBEB;strokeColor=#D97706;fontColor=#FFFFFF;fontSize=37;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="674" y="112" width="572" height="780" as="geometry" />
+        </mxCell>
+
+        <mxCell id="b1" value="&lt;b&gt;☐ 第一步：&lt;/b&gt;我能说出自己在参与什么对话吗？" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FDE68A;shadow=1;fontSize=32;verticalAlign=middle;" vertex="1" parent="phaseB">
+          <mxGeometry x="20" y="81.5" width="532" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="b2" value="&lt;b&gt;☐ 第二步：&lt;/b&gt;我能至少追问两层&amp;quot;那又怎样&amp;quot;吗？" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FDE68A;shadow=1;fontSize=32;verticalAlign=middle;" vertex="1" parent="phaseB">
+          <mxGeometry x="20" y="196.5" width="532" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="b3" value="&lt;b&gt;☐ 第三步：&lt;/b&gt;我能指出最薄弱的两个推理环节吗？" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FDE68A;shadow=1;fontSize=32;verticalAlign=middle;" vertex="1" parent="phaseB">
+          <mxGeometry x="20" y="311.5" width="532" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="b4" value="&lt;b&gt;☐ 第四步：&lt;/b&gt;我能从反对者角度重述论证吗？" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FDE68A;shadow=1;fontSize=32;verticalAlign=middle;" vertex="1" parent="phaseB">
+          <mxGeometry x="20" y="426.5" width="532" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="b5" value="&lt;b&gt;☐ 第五步：&lt;/b&gt;我能说出研究打开了什么新问题吗？" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FDE68A;shadow=1;fontSize=32;verticalAlign=middle;" vertex="1" parent="phaseB">
+          <mxGeometry x="20" y="541.5" width="532" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Return note -->
+        <mxCell id="bNote" value="&lt;b&gt;❗ 有未完成的步骤？&lt;/b&gt;回到阶段 A 的对应维度，深化思考后再继续。" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#FCA5A5;fontSize=29;fontColor=#991B1B;verticalAlign=middle;" vertex="1" parent="phaseB">
+          <mxGeometry x="20" y="656.5" width="532" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- ============================================================ -->
+        <!-- Arrow B → C                                                  -->
+        <!-- ============================================================ -->
+        <mxCell id="arrowBC" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jumpStyle=none;html=1;strokeWidth=3;strokeColor=#059669;endArrow=blockThin;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1246" y="502" as="sourcePoint" />
+            <mxPoint x="1296" y="502" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ============================================================ -->
+        <!-- Phase C — Research Memo (Emerald)                            -->
+        <!-- ============================================================ -->
+        <mxCell id="phaseC" value="&lt;b&gt;阶段 C — 研究备忘录&lt;/b&gt;" style="swimlane;startSize=58;fillColor=#059669;gradientColor=#047857;swimlaneFillColor=#ECFDF5;strokeColor=#059669;fontColor=#FFFFFF;fontSize=37;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1296" y="112" width="572" height="780" as="geometry" />
+        </mxCell>
+
+        <mxCell id="c1" value="&lt;b&gt;📌 研究问题&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:27px;color:#64748B;&quot;&gt;X/Y/Z 句式：我研究 X 以理解 Y，旨在 Z&lt;/span&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6EE7B7;shadow=1;fontSize=32;verticalAlign=middle;" vertex="1" parent="phaseC">
+          <mxGeometry x="20" y="81.5" width="532" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="c2" value="&lt;b&gt;💡 创新角度&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:27px;color:#64748B;&quot;&gt;赞同 / 异议 / 拓展 + 意义层级&lt;/span&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6EE7B7;shadow=1;fontSize=32;verticalAlign=middle;" vertex="1" parent="phaseC">
+          <mxGeometry x="20" y="196.5" width="532" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="c3" value="&lt;b&gt;🔗 论证骨架&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:27px;color:#64748B;&quot;&gt;主张 → 理由 → 证据 → 保证 → 回应&lt;/span&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6EE7B7;shadow=1;fontSize=32;verticalAlign=middle;" vertex="1" parent="phaseC">
+          <mxGeometry x="20" y="311.5" width="532" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="c4" value="&lt;b&gt;⚠️ 潜在挑战&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:27px;color:#64748B;&quot;&gt;薄弱环节、已知反驳、替代解释&lt;/span&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6EE7B7;shadow=1;fontSize=32;verticalAlign=middle;" vertex="1" parent="phaseC">
+          <mxGeometry x="20" y="426.5" width="532" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="c5" value="&lt;b&gt;🔮 下一步问题&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:27px;color:#64748B;&quot;&gt;这个研究打开了什么新问题？&lt;/span&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6EE7B7;shadow=1;fontSize=32;verticalAlign=middle;" vertex="1" parent="phaseC">
+          <mxGeometry x="20" y="541.5" width="532" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- ============================================================ -->
+        <!-- Bottom note                                                   -->
+        <!-- ============================================================ -->
+        <mxCell id="bottomNote" value="💬 &lt;i&gt;对话不是线性过程。你可以随时回到任何维度，只有当思路足够清晰时才进入阶段 B。研究备忘录是自然产生的副产品——是对话完成时浮现出来的东西。&lt;/i&gt;" style="text;html=1;fontSize=26;fontColor=#64748B;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="52" y="927" width="1816" height="29" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

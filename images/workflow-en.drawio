@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="drawio" version="30.2.6">
+  <diagram name="Workflow-LR">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ===================== Title ===================== -->
+        <mxCell id="title" value="&lt;b&gt;Craft of Research — Workflow&lt;/b&gt;" style="text;html=1;fontSize=37;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#1E293B;" vertex="1" parent="1">
+          <mxGeometry x="52" y="12" width="1816" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="From Socratic Dialogue to a Structured Research Memo" style="text;html=1;fontSize=22;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#64748B;" vertex="1" parent="1">
+          <mxGeometry x="52" y="50" width="1816" height="28" as="geometry" />
+        </mxCell>
+
+        <!-- ============================================================ -->
+        <!-- Phase A — Dialogue Exploration (Indigo)                      -->
+        <!-- ============================================================ -->
+        <mxCell id="phaseA" value="&lt;b&gt;Phase A — Dialogue Exploration&lt;/b&gt;" style="swimlane;startSize=60;fillColor=#4F46E5;gradientColor=#4338CA;swimlaneFillColor=#F8FAFC;strokeColor=#4F46E5;fontColor=#FFFFFF;fontSize=29;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="52" y="85" width="572" height="760" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a1" value="&lt;b&gt;🎯 Step 1 — Define Your Problem&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:22px;color:#64748B;&quot;&gt;What is your research question? (Dimension 1)&lt;/span&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#C7D2FE;shadow=1;fontSize=26;verticalAlign=middle;" vertex="1" parent="phaseA">
+          <mxGeometry x="20" y="87.5" width="532" height="95" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a2" value="&lt;b&gt;💡 Step 2 — Validate Your Significance&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:22px;color:#64748B;&quot;&gt;Why does it matter? (Dimension 2)&lt;/span&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#C7D2FE;shadow=1;fontSize=26;verticalAlign=middle;" vertex="1" parent="phaseA">
+          <mxGeometry x="20" y="197.5" width="532" height="95" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a3" value="&lt;b&gt;🏗️ Step 3 — Build Your Argument&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:22px;color:#64748B;&quot;&gt;Is the logic rigorous and complete? (Dimension 3)&lt;/span&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#C7D2FE;shadow=1;fontSize=26;verticalAlign=middle;" vertex="1" parent="phaseA">
+          <mxGeometry x="20" y="307.5" width="532" height="95" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a4" value="&lt;b&gt;⚖️ Step 4 — Check Ethics&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:22px;color:#64748B;&quot;&gt;Who might be affected? (Dimension 4)&lt;/span&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#C7D2FE;shadow=1;fontSize=26;verticalAlign=middle;" vertex="1" parent="phaseA">
+          <mxGeometry x="20" y="417.5" width="532" height="95" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a5" value="&lt;b&gt;🔭 Step 5 — Open New Questions&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:22px;color:#64748B;&quot;&gt;What comes next? (Dimension 5)&lt;/span&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#C7D2FE;shadow=1;fontSize=26;verticalAlign=middle;" vertex="1" parent="phaseA">
+          <mxGeometry x="20" y="527.5" width="532" height="95" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a6" value="&lt;b&gt;✍️ Step 6 — Verify You Can Say It&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:22px;color:#64748B;&quot;&gt;Writing &amp;amp; presenting (Dimension 6 — optional)&lt;/span&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#C7D2FE;shadow=1;fontSize=26;verticalAlign=middle;dashed=1;" vertex="1" parent="phaseA">
+          <mxGeometry x="20" y="637.5" width="532" height="95" as="geometry" />
+        </mxCell>
+
+        <!-- ============================================================ -->
+        <!-- Arrow A → B                                                  -->
+        <!-- ============================================================ -->
+        <mxCell id="arrowAB" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jumpStyle=none;html=1;strokeWidth=3;strokeColor=#4F46E5;endArrow=blockThin;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="624" y="465" as="sourcePoint" />
+            <mxPoint x="674" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ============================================================ -->
+        <!-- Phase B — Innovation Self-Check (Amber)                      -->
+        <!-- ============================================================ -->
+        <mxCell id="phaseB" value="&lt;b&gt;Phase B — Innovation Self-Check&lt;/b&gt;" style="swimlane;startSize=60;fillColor=#D97706;gradientColor=#B45309;swimlaneFillColor=#FFFBEB;strokeColor=#D97706;fontColor=#FFFFFF;fontSize=29;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="674" y="85" width="572" height="760" as="geometry" />
+        </mxCell>
+
+        <mxCell id="b1" value="&lt;b&gt;☐ Step 1:&lt;/b&gt; Can I name the ongoing conversation I'm joining?" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FDE68A;shadow=1;fontSize=25;verticalAlign=middle;" vertex="1" parent="phaseB">
+          <mxGeometry x="20" y="87.5" width="532" height="95" as="geometry" />
+        </mxCell>
+
+        <mxCell id="b2" value="&lt;b&gt;☐ Step 2:&lt;/b&gt; Can I answer &amp;quot;So What?&amp;quot; at least 2 levels deep?" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FDE68A;shadow=1;fontSize=25;verticalAlign=middle;" vertex="1" parent="phaseB">
+          <mxGeometry x="20" y="197.5" width="532" height="95" as="geometry" />
+        </mxCell>
+
+        <mxCell id="b3" value="&lt;b&gt;☐ Step 3:&lt;/b&gt; Can I name my 2 weakest reasoning links?" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FDE68A;shadow=1;fontSize=25;verticalAlign=middle;" vertex="1" parent="phaseB">
+          <mxGeometry x="20" y="307.5" width="532" height="95" as="geometry" />
+        </mxCell>
+
+        <mxCell id="b4" value="&lt;b&gt;☐ Step 4:&lt;/b&gt; Can I restate my argument from an opponent's view?" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FDE68A;shadow=1;fontSize=25;verticalAlign=middle;" vertex="1" parent="phaseB">
+          <mxGeometry x="20" y="417.5" width="532" height="95" as="geometry" />
+        </mxCell>
+
+        <mxCell id="b5" value="&lt;b&gt;☐ Step 5:&lt;/b&gt; Can I say what new questions my research opens up?" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FDE68A;shadow=1;fontSize=25;verticalAlign=middle;" vertex="1" parent="phaseB">
+          <mxGeometry x="20" y="527.5" width="532" height="95" as="geometry" />
+        </mxCell>
+
+        <!-- Return note -->
+        <mxCell id="bNote" value="&lt;b&gt;❗ Any unchecked step?&lt;/b&gt; Return to the corresponding dimension in Phase A and deepen your thinking before proceeding." style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#FCA5A5;fontSize=23;fontColor=#991B1B;verticalAlign=middle;" vertex="1" parent="phaseB">
+          <mxGeometry x="20" y="637.5" width="532" height="95" as="geometry" />
+        </mxCell>
+
+        <!-- ============================================================ -->
+        <!-- Arrow B → C                                                  -->
+        <!-- ============================================================ -->
+        <mxCell id="arrowBC" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jumpStyle=none;html=1;strokeWidth=3;strokeColor=#059669;endArrow=blockThin;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1246" y="465" as="sourcePoint" />
+            <mxPoint x="1296" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ============================================================ -->
+        <!-- Phase C — Research Memo (Emerald)                            -->
+        <!-- ============================================================ -->
+        <mxCell id="phaseC" value="&lt;b&gt;Phase C — Research Memo&lt;/b&gt;" style="swimlane;startSize=60;fillColor=#059669;gradientColor=#047857;swimlaneFillColor=#ECFDF5;strokeColor=#059669;fontColor=#FFFFFF;fontSize=29;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1296" y="85" width="572" height="760" as="geometry" />
+        </mxCell>
+
+        <mxCell id="c1" value="&lt;b&gt;📌 Research Question&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:22px;color:#64748B;&quot;&gt;X/Y/Z statement: I study X to understand Y so that Z&lt;/span&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6EE7B7;shadow=1;fontSize=26;verticalAlign=middle;" vertex="1" parent="phaseC">
+          <mxGeometry x="20" y="87.5" width="532" height="95" as="geometry" />
+        </mxCell>
+
+        <mxCell id="c2" value="&lt;b&gt;💡 Creative Angle&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:22px;color:#64748B;&quot;&gt;Agreement / Disagreement / Extension + significance&lt;/span&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6EE7B7;shadow=1;fontSize=26;verticalAlign=middle;" vertex="1" parent="phaseC">
+          <mxGeometry x="20" y="197.5" width="532" height="95" as="geometry" />
+        </mxCell>
+
+        <mxCell id="c3" value="&lt;b&gt;🔗 Argument Skeleton&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:22px;color:#64748B;&quot;&gt;Claim → Reasons → Evidence → Warrant → Acknowledgment&lt;/span&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6EE7B7;shadow=1;fontSize=26;verticalAlign=middle;" vertex="1" parent="phaseC">
+          <mxGeometry x="20" y="307.5" width="532" height="95" as="geometry" />
+        </mxCell>
+
+        <mxCell id="c4" value="&lt;b&gt;⚠️ Potential Challenges&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:22px;color:#64748B;&quot;&gt;Weakest links, known counterarguments, alt. explanations&lt;/span&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6EE7B7;shadow=1;fontSize=26;verticalAlign=middle;" vertex="1" parent="phaseC">
+          <mxGeometry x="20" y="417.5" width="532" height="95" as="geometry" />
+        </mxCell>
+
+        <mxCell id="c5" value="&lt;b&gt;🔮 Next Questions&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:22px;color:#64748B;&quot;&gt;What new questions does this research open up?&lt;/span&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6EE7B7;shadow=1;fontSize=26;verticalAlign=middle;" vertex="1" parent="phaseC">
+          <mxGeometry x="20" y="527.5" width="532" height="95" as="geometry" />
+        </mxCell>
+
+        <!-- ============================================================ -->
+        <!-- Bottom note                                                   -->
+        <!-- ============================================================ -->
+        <mxCell id="bottomNote" value="💬 &lt;i&gt;The dialogue is not a linear process. You can revisit any dimension at any time, and only move to Phase B when your thinking feels solid enough. The research memo is a natural byproduct — what emerges when the conversation has done its work.&lt;/i&gt;" style="text;html=1;fontSize=21;fontColor=#64748B;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="52" y="880" width="1816" height="28" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
