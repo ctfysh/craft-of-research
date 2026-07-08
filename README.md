@@ -51,8 +51,6 @@ The skill guides you through three phases. Dialogue exploration builds clarity; 
 
 ![Craft of Research — Workflow (English)](images/workflow-en.png)
 
-The dialogue is **not** a linear form-filling exercise. You loop between steps, revisit earlier dimensions, and only move to Phase B when your thinking feels solid enough. The research memo is a natural byproduct — not the goal, but what emerges when the conversation has done its work.
-
 ### How to Use
 
 Invoke the skill with the trigger command:
@@ -153,8 +151,6 @@ This project is for educational and research purposes only.
 技能通过三个阶段引导。对话探索建立思路清晰度；创新性自检确认就绪；结构化备忘录产出一份可归档的成果。
 
 ![Craft of Research — Workflow (中文)](images/workflow-zh.png)
-
-对话**不是**线性填表。你可以在各步之间来回跳转，随时回到前面的维度重新审视，直到思路足够清晰再进入 Phase B。研究备忘录是对话自然产生的副产品——不是目标，而是对话完成时浮现的东西。
 
 ### 怎么用
 

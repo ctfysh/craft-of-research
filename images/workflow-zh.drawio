@@ -66,7 +66,7 @@
           <mxGeometry x="20" y="81.5" width="532" height="100" as="geometry" />
         </mxCell>
 
-        <mxCell id="b2" value="&lt;b&gt;☐ 第二步：&lt;/b&gt;我能至少追问两层&amp;quot;那又怎样&amp;quot;吗？" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FDE68A;shadow=1;fontSize=32;verticalAlign=middle;" vertex="1" parent="phaseB">
+        <mxCell id="b2" value="&lt;b&gt;☐ 第二步：&lt;/b&gt;我能至少追问两层&amp;quot;所以呢&amp;quot;吗？" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FDE68A;shadow=1;fontSize=32;verticalAlign=middle;" vertex="1" parent="phaseB">
           <mxGeometry x="20" y="196.5" width="532" height="100" as="geometry" />
         </mxCell>
 
