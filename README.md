@@ -184,9 +184,9 @@ This project is for educational and research purposes only.
 │   ├── SKILL-zh.md            # 中文完整版（约 716 行）
 │   └── SKILL-en.md            # 英文完整版（约 720 行）
 ├── examples/
-│   ├── humanities-en.md           # 示例对话 — 文科（English）
+│   ├── humanities-en.md           # 示例对话 — 文科（英文）
 │   ├── humanities-zh.md           # 示例对话 — 文科（中文）
-│   ├── science-en.md              # 示例对话 — 理科（English）
+│   ├── science-en.md              # 示例对话 — 理科（英文）
 │   └── science-zh.md              # 示例对话 — 理科（中文）
 ├── docs/superpowers/
 │   ├── plans/                     # 实现计划
