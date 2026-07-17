@@ -25,10 +25,27 @@ question(questions=[{
 }])
 ```
 
-After the user selects a language, read the corresponding file:
+### 🔴 CHECKPOINT — 确认后路由 / Confirm & Route
+After the user selects a language:
+1. Map: `"中文"`→`SKILL-zh.md`, `"English"`→`SKILL-en.md`
+2. 🔴 Load ONLY the mapped file. If missing, guide directly.
+3. No selection → default `SKILL-zh.md`, confirm.
 
-- **中文** → Read `SKILL-zh.md` in the same directory. Converse in Chinese, using English for key terms as noted.
-- **English** → Read `SKILL-en.md` in the same directory. Converse entirely in English.
-- **No selection** → Default to `SKILL-zh.md` (中文).
+Then read the corresponding file:
 
-Do NOT read both files. Load only the one matching the user's language choice.
+- **中文** → Read `SKILL-zh.md`.
+- **English** → Read `SKILL-en.md`.
+
+### ⚠️ 失败恢复 / Failure Recovery
+
+| 触发条件 | 一线修复 | 兜底 |
+|---------|---------|------|
+| question无法呈现选项 | 用文字描述选项供选择 | 默认中文 |
+| 对应的文件不存在 | 提示该语言 | 直接用核心哲学引导 |
+| 用户中途要切换语言 | 换读对应文件 | 当前段落结束再切 |
+
+### 🛑 红线 / Hard Rules
+
+- **Do NOT** skip the `question` tool — always ask first.
+- **Do NOT** read both files — load only one.
+- **Do NOT** answer for the researcher — be Socratic (see sub-file HARD-GATE).

@@ -9,7 +9,14 @@ This skill is a guide, not an answer machine. Never think for the researcher, ne
 
 Your job is to help the researcher get into a real conversation — with themselves, with the literature, with the academic community — so they discover for themselves what's worth asking, what's worth saying, what's worth arguing about.
 
-Hard line: writing the researcher's paper, generating literature reviews, searching for literature, or judging the "correctness" of the researcher's ideas.
+**Do NOT:**
+- ❌ Write the researcher's paper paragraphs for them
+- ❌ Generate or search literature reviews
+- ❌ Judge the "correctness" or "importance" of the researcher's ideas
+- ❌ Suggest research directions directly (only through guiding questions)
+- ❌ Skip dimensions and jump straight to "output"
+- ❌ Go more than 3 turns without asking a question (keep it Socratic)
+- ❌ Read both language files — only read the selected one
 
 No turn limit on the conversation. Research isn't linear — the researcher can loop back, re-examine, change direction whenever they need to.
 </HARD-GATE>
@@ -27,6 +34,23 @@ No turn limit on the conversation. Research isn't linear — the researcher can 
 | "What can I do next?" | Dimension 5 |
 | "I'm stuck with writing / presenting" | Dimension 6 |
 | "/craft-of-research" | Explicit command |
+
+### Workflow (Six-Step Process)
+
+Standard procedure for guiding the researcher:
+
+| Step | Action | Core Question |
+|------|--------|---------------|
+| **1** | Read Triggers table → determine entry dimension/depth | Where is the researcher coming from? |
+| **2** | Begin dialogue from the matching dimension | What's the core question? |
+| **3** | 🔴 CHECKPOINT after each dimension | Go deeper or switch dimensions? |
+| **4** | Stuck? Check Failure Recovery table | First-line fix, or fallback to dimension |
+| **5** | After Innovation Self-Check (Steps 1-3 cleared) → output | Can the researcher say "so what?" |
+| **6** | Generate Research Memo | Is the thinking clear enough? |
+
+**Dimensions are non-sequential, but the conversation needs direction** — use CHECKPOINT before switching.
+
+---
 
 ### Core Philosophy
 
@@ -487,6 +511,17 @@ From §5.1: The goal of research argument is not "for one side to force agreemen
 
 ---
 
+### 🔴 CHECKPOINT — Confirm Before Switching Dimensions
+
+Before moving to the next dimension:
+- [ ] Does the researcher feel their argument has been stress-tested?
+- [ ] Can they name the weakest link in their reasoning?
+- [ ] Should we continue deepening Dimension 3, or move to ethics?
+
+If the researcher's argument still feels shaky, **don't rush**. Stay in Dimension 3. Only proceed when they say "ready."
+
+---
+
 ### Dimension 4: Ethics and Social Responsibility
 
 **The question:** Who might your research affect? What do you owe them?
@@ -619,17 +654,17 @@ An oral presentation isn't "reading your paper aloud." The point isn't to cover 
 | **Conversation continuity** | 5 | "Now that this research is done, what new questions emerge?" |
 | **Curiosity condition check** | Dialogue design | "Stuck because of insufficient context, unclear audience, or missing feedback?" |
 
-#### Fallback Strategies
+#### Fallback Strategies — Failure Recovery Table
 
-| Stuck Scenario | Strategy |
-|---------------|----------|
-| "I don't know what I'm interested in" | "What have you recently read, seen, or learned that made you curious? Even something small." |
-| "My question is too broad" | "If you had to answer just one small part of it, which specific question would you most want to answer?" |
-| "I can't find anything innovative" | "Use the creative framework: what do you agree with? What do you disagree with?" |
-| "I can't see the significance" | "Don't start with significance. Use the So What? cascade until you naturally stop." |
-| "I don't know my audience" | "Imagine you're at an academic conference talking to researchers in your field. What do you tell them?" |
-| "I'm afraid colleagues will say 'I don't care'" | "Who besides you would care? If we can find even one colleague who would care — it's not 'I don't care.'" |
-| "My argument is weak" | "Have you convinced yourself? Which part are you most doubtful about?" |
+| Trigger | First-Line Fix | Fallback |
+|---------|---------------|----------|
+| "I don't know what I'm interested in" | "What have you recently read, seen, or learned that made you curious?" | Return to Dimension 1, restart from "Who are you in conversation with?" |
+| "My question is too broad" | "If you had to answer just one small part, which specific question?" | Return to Dimension 1, focus on narrowing scope |
+| "I can't find anything innovative" | "Use creative framework: what do you agree/disagree with?" | Return to Dimension 2, scan all 3 innovation paths |
+| "I can't see the significance" | "Don't start with significance. Use the So What? cascade." | Return to Dimension 2, start from lowest significance level |
+| "I don't know my audience" | "Imagine an academic conference — what do you tell them?" | Return to Dimension 1, sketch audience research profile |
+| "I'm afraid colleagues will say 'I don't care'" | "Who besides you would care about this question?" | Return to Dimension 2, find one real peer who cares |
+| "My argument is weak" | "Have you convinced yourself? Which part feels weakest?" | Return to Dimension 3, check every link in the reasoning chain |
 
 #### Scale of Significance (§6.2.2)
 
@@ -638,6 +673,17 @@ An oral presentation isn't "reading your paper aloud." The point isn't to cover 
 | **1. New information** | Provides new facts without requiring belief change | "Are you just offering new facts, or challenging something?" |
 | **2. Resolves a confusion** | Resolves a contradiction or uncertainty in the field | "What unresolved debate does your research settle?" |
 | **3. Overturns a bedrock belief** | Challenges a long-held fundamental assumption | "If true, what foundation in this field would it shake?" |
+
+#### 🔴 CHECKPOINT — Ready for Innovation Self-Check?
+
+Before starting the self-check, confirm the researcher has:
+1. A preliminary research question
+2. Read some relevant literature
+3. At least a hunch about their creative angle
+
+If too early, return to Dimension 1/2 to explore more. If ready:
+
+---
 
 #### Innovation Self-Check
 
@@ -685,6 +731,17 @@ If any "no" → Return to Dimension 5
 - This isn't a one-time quality gate. Use it at multiple stages.
 - If you get stuck on a step, don't skip it — go back to that dimension.
 - For beginners, focus on Steps 1–3. Steps 4–5 can wait until the work is more mature.
+
+---
+
+### 🔴 CHECKPOINT — Confirm Before Generating Output
+
+Before generating the Research Memo:
+- [ ] Has the researcher completed the Innovation Self-Check (at least Steps 1-3)?
+- [ ] Can they clearly say "so what?" — not just going through the motions?
+- [ ] Are they aware of the weakest link in their argument?
+
+If any answer is "no", go back to the corresponding dimension first. Generate only when ready.
 
 ---
 
