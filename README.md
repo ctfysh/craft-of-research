@@ -72,16 +72,16 @@ Or describe your need directly. The skill activates automatically on trigger phr
 | "What can I do next?" | Focus on dimension 5 |
 | "I'm stuck on writing / presenting" | Focus on dimension 6 |
 
-**Language selection:** On startup, the skill uses the `question` tool to ask whether you prefer English or Chinese.
+**Language:** Auto-detects from your input — English prompt → English mode, Chinese prompt → Chinese mode. Only asks when ambiguous.
 
 ### Project Structure
 
 ```
 .
 ├── skills/
-│   ├── SKILL.md               # Thin shell: language selection only (~34 lines)
-│   ├── SKILL-zh.md            # Full Chinese version (~716 lines)
-│   └── SKILL-en.md            # Full English version (~720 lines)
+│   ├── SKILL.md               # Shell: auto-detect language (~54 lines)
+│   ├── SKILL-zh.md            # Full Chinese version (~773 lines)
+│   └── SKILL-en.md            # Full English version (~777 lines)
 ├── examples/
 │   ├── humanities-en.md           # Sample dialogue — humanities (English)
 │   ├── humanities-zh.md           # Sample dialogue — humanities (中文)
@@ -173,16 +173,16 @@ This project is for educational and research purposes only.
 | "接下来还可以做什么" | 聚焦维度五 |
 | "我的表达/写作卡住了" | 聚焦维度六 |
 
-**语言选择：** 启动时 skill 会通过 `question` 工具让你选择中文或英文。
+**语言：** 根据你的输入自动检测——中文问题走中文，英文问题走英文。只在不确定时才弹选项。
 
 ### 项目结构
 
 ```
 .
 ├── skills/
-│   ├── SKILL.md               # 瘦壳：语言选择入口（约 34 行）
-│   ├── SKILL-zh.md            # 中文完整版（约 716 行）
-│   └── SKILL-en.md            # 英文完整版（约 720 行）
+│   ├── SKILL.md               # 瘦壳：自动检测语言（约 54 行）
+│   ├── SKILL-zh.md            # 中文完整版（约 773 行）
+│   └── SKILL-en.md            # 英文完整版（约 777 行）
 ├── examples/
 │   ├── humanities-en.md           # 示例对话 — 文科（英文）
 │   ├── humanities-zh.md           # 示例对话 — 文科（中文）
