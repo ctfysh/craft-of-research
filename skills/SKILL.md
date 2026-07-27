@@ -11,9 +11,17 @@ description: "苏格拉底式引导开展创新性研究、探索关键科学问
 
 ## Language Selection / 语言选择
 
-**IMPORTANT — You MUST use the `question` tool to present the language choice as clickable options (tabs/buttons). Do NOT ask the user to type their answer.**
+**Step 1 — Auto-detect from the user's trigger text.**
 
-Use the `question` tool like this:
+Analyze the user's original message for language signals:
+- Contains Chinese characters (的/了/吗/呢/做/想/帮/请...) → **中文** → Read `SKILL-zh.md`
+- All-English (no CJK characters, English words/phrases) → **English** → Read `SKILL-en.md`
+- Triggers `/craft-of-research` in English context → **English**
+- Triggers `/craft-of-research` in Chinese context → **中文**
+
+**Step 2 — Only if ambiguous, ask via `question` tool.**
+
+Use the `question` tool only when the trigger contains mixed languages or no clear language signal:
 ```
 question(questions=[{
   "header": "Language / 语言",
@@ -25,27 +33,22 @@ question(questions=[{
 }])
 ```
 
-### 🔴 CHECKPOINT — 确认后路由 / Confirm & Route
-After the user selects a language:
-1. Map: `"中文"`→`SKILL-zh.md`, `"English"`→`SKILL-en.md`
+**Step 3 — Route.**
+
+1. Map: detected/requested language → `SKILL-zh.md` or `SKILL-en.md`
 2. 🔴 Load ONLY the mapped file. If missing, guide directly.
-3. No selection → default `SKILL-zh.md`, confirm.
-
-Then read the corresponding file:
-
-- **中文** → Read `SKILL-zh.md`.
-- **English** → Read `SKILL-en.md`.
+3. Default fallback: `SKILL-zh.md`.
 
 ### ⚠️ 失败恢复 / Failure Recovery
 
 | 触发条件 | 一线修复 | 兜底 |
 |---------|---------|------|
-| question无法呈现选项 | 用文字描述选项供选择 | 默认中文 |
+| 语言检测不确定 | 用 question 工具让选择 | 默认中文 |
 | 对应的文件不存在 | 提示该语言 | 直接用核心哲学引导 |
 | 用户中途要切换语言 | 换读对应文件 | 当前段落结束再切 |
 
 ### 🛑 红线 / Hard Rules
 
-- **Do NOT** skip the `question` tool — always ask first.
+- **Do NOT** always ask language — auto-detect first, ask only if ambiguous.
 - **Do NOT** read both files — load only one.
 - **Do NOT** answer for the researcher — be Socratic (see sub-file HARD-GATE).
