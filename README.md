@@ -210,3 +210,9 @@ This project is for educational and research purposes only.
 ### 许可证
 
 本项目仅用于教育和研究目的。
+
+---
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ctfysh/craft-of-research&type=date&legend=top-left)](https://www.star-history.com/#ctfysh/craft-of-research&type=date&legend=top-left)
